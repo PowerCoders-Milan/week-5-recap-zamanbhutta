@@ -1,0 +1,56 @@
+body{
+    background-color:skyblue;
+    margin: 0px;
+    }
+    header{
+    background-color: violet;
+    text-align: center;
+    width: 100%;
+    line-height: 75px;
+    
+    }
+    .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+    
+    
+    }
+    .main>h2{
+        background-color: blueviolet;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px; 
+        line-height: 25vh; 
+        text-align: center;   
+    
+    }
+    .main>h3{
+        background-color: brown;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+        line-height: 25vh;
+        text-align: center;
+       
+    }
+    .main>h4{
+        background-color: chartreuse;
+        margin: 10px;
+        padding:20px;
+        font-size: 30px;
+        line-height: 25vh;
+        text-align: center;
+    
+    }
+    footer{
+        text-align: center;
+        background-color: teal; 
+        width: 100%;
+        height:20vh;
+        position: fixed;
+        bottom: 0;
+        
+    }
