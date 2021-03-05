@@ -1,0 +1,40 @@
+.header {
+     grid-area: header; 
+}
+.content1 { 
+    grid-area: content1; 
+}
+.content2 { 
+    grid-area: content2; 
+}
+.content3 { 
+    grid-area: content3; 
+}
+.content4 {
+     grid-area: content4; 
+}
+.content5 { 
+    grid-area: content5; 
+}
+.footer {
+     grid-area: footer; 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'header header header'
+  'content1 content2 content3'
+  'content4 content4 content5'
+  'footer footer footer';
+  grid-gap: 10px;
+  background-color: blue;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  padding: 50px 0;
+  font-size: 30px;
+}
